@@ -67,7 +67,7 @@ router.patch("/user/:id", async (req, res) => {
 });
 
 // Deleting a Profile
-router.delete("/:id", async (req, res) => {
+router.delete("/user/:id", async (req, res) => {
   try {
     const collection = await User.findOneById(_id);
     const result = await User.deleteOne(collection);
