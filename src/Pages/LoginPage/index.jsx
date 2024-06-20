@@ -1,11 +1,11 @@
 import { useState } from "react";
 export default function LoginPage({ addAccount }) {
-    const [account, setAccount] = useState('');
+    const [accounts, setAccounts] = useState('');
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        addAccount(account)
-        setAccount('')
+        addAccount(accounts)
+        setAccounts('')
     }
     return (
         <>
@@ -14,23 +14,19 @@ export default function LoginPage({ addAccount }) {
             </div>
             <form onSubmit={handleSubmit}>
                 <div>
+                    <label for='username'>Username: </label>
                     <input
                     type="text"
                     name="userName"
-                    onChange={(e) => setAccount(e.target.value)}
-                     value={account}
+                    onChange={(e) => setAccounts(e.target.value)}
+                     value={accounts}
                     />
+                    <label for='password'>Password: </label>
                     <input
-                    type="text"
-                    name="email"
-                    onChange={(e) => setAccount(e.target.value)}
-                    value={account}
-                    />
-                    <input
-                    type="text"
+                    type="password"
                     name="passWord"
-                    onChange={(e) => setAccount(e.target.value)}
-                    value={account}
+                    onChange={(e) => setAccounts(e.target.value)}
+                    value={accounts}
                     />
                 </div>
                 <button type="submit">Login</button>
