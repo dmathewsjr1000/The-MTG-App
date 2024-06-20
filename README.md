@@ -1,15 +1,17 @@
 # Capstone The Magic App
 
-
-
+<h1>The Deck box 1.0</h1> 
+<p>The major usage of my app is to portable assisant to MTG Players to have organization of decks, build deck, catalog collections, and even card searches</p>
 Features
-User Authentication (Login and Registration)
+<p>User Authentication (Login and Registration)
 Create, Edit, and Delete Users
-Creating differnt decks, and search cards
+Creating differnt decks, and search cards</p
+                                           
 
 
 Technologies Used
-React, Node, Express, Mongoose, MongoDB, Scyfall Api
+React, Node, Express, Mongoose, MongoDB 
+Scyfall Api
 API: fetch and axios
 Styling: Coming Soon
 
@@ -35,6 +37,11 @@ Front/Back End
 API Integration
 Axios: Used for making API requests to the backend CRUD operations.
 
+Furture Features 2.0
+<li>Life Tracker</li>
+<li>wishlist</li>
+<li>Price Tracker</li>
+<li>Play Testing</li>
 
 
 
