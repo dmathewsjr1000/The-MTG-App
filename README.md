@@ -30,6 +30,12 @@ Queries Different MTG cards from varies of sets
 Deck Building:
 Creation of varies of Decks
 
+Componets
+<li>Mainlayout</li>
+<li>Navbar</li>
+<li>Sform</li>
+<li>SCardDisaplay</li>
+Nav
 Front/Back End 
 <li>https://github.com/dmathewsjr1000/The-MTG-App.git</li>
 <li>https://github.com/dmathewsjr1000/The-MTG-App-BE.git</li>
