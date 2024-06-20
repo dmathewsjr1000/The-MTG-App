@@ -1,4 +1,4 @@
-function SCardDisplay({ card }) {
+export default function SCardDisplay({ card }) {
     return (
       <div className="cardFrame">
         <h1>{card.name}</h1>
@@ -16,5 +16,5 @@ function SCardDisplay({ card }) {
     );
   }
   
-  export default SCardDisplay;
+ 
   

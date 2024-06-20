@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function SForm({ cardsearch }) {
+export default function SForm({ cardsearch }) {
   const [formData, setFormData] = useState({
     searchTerm: "",
   });
@@ -31,4 +31,4 @@ function SForm({ cardsearch }) {
   );
 }
 
-export default SForm;
+
